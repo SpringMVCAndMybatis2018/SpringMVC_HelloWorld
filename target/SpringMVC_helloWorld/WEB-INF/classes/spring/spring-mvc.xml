@@ -18,7 +18,7 @@
     </context:component-scan>
 
     <!--扫描service-->
-    <context:component-scan base-package="com.anlu"/>
+    <context:component-scan base-package="com.anlu.**"/>
 
 <!--HandlerMapping 无需配置，springmvc可以默认启动-->
 
