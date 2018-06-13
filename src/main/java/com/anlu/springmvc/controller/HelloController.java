@@ -12,4 +12,10 @@ public class HelloController {
         model.addAttribute("msg", "Hello Spring MVC Framework!");
         return "hello";
     }
+
+    @RequestMapping(value = "/mytest1")
+    public String test1(){
+
+        return "mytest1";
+    }
 }
